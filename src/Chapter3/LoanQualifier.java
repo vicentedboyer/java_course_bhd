@@ -6,11 +6,9 @@ public class LoanQualifier {
 
     public static void main(String args[]){
 
-        //Initialize what we know
         int requiredSalary = 30000;
         int requiredYearsEmployed = 2;
 
-        //Get what we don't
         System.out.println("Ingresa tu salario:");
         Scanner scanner = new Scanner(System.in);
         double salary = scanner.nextDouble();
@@ -20,7 +18,6 @@ public class LoanQualifier {
 
         scanner.close();
 
-        //Make decision
         if(salary >= requiredSalary){
             if(years >= requiredYearsEmployed){
                 System.out.println("¡Felicitaciones! Usted califica para el préstamo");
