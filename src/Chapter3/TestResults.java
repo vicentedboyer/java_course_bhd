@@ -6,13 +6,11 @@ public class TestResults {
 
     public static void main(String args[]){
 
-        //Get the test score
         System.out.println("Ingresa tu nota: ");
         Scanner scanner = new Scanner(System.in);
         double score = scanner.nextDouble();
         scanner.close();
 
-        //Determine the letter gradeS
         char grade;
 
         if(score < 60){
