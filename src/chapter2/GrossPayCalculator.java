@@ -28,6 +28,5 @@ public class GrossPayCalculator {
             System.out.println("Excede el monto a pagar semanal $" + grossPay);
             System.out.println("Se recalculo para hacer posible el pago, el monto a pagar es $" + done);
         }
-
     }
 }
