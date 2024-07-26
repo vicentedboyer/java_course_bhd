@@ -2,10 +2,10 @@ package josexercises;
 
 public class ArraySuma {
     public static void main(String[] args) {
-        // Definir un array de enteros
+        // Definir un array pa los enteros
         int[] array = {1, 2, 3, 4, 5};
 
-        // Llamar a la función para sumar los elementos del array
+        // Llamar a la función para sumar los elementos
         int sum = sumArray(array);
 
         // Imprimir la suma de los elementos del array

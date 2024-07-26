@@ -2,7 +2,7 @@ package josexercises;
 
 // Clase Vehiculo
 class Vehiculo {
-    // Atributos comunes a todos los vehículos
+    // Atributos los vehículos
     private String marca;
     private String modelo;
     private int ano;
