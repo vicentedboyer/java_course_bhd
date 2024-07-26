@@ -2,7 +2,7 @@ package josexercises;
 
 import java.util.ArrayList;
 
-public class NameList {
+public class ArrayNames {
     public static void main(String args[]){
         //Creo el array para almacenar los nombres.
         ArrayList<String> names = new ArrayList<>();
